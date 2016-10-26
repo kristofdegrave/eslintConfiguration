@@ -1,0 +1,19 @@
+{
+  "name": "eslintconfiguration",
+  "version": "0.0.1",
+  "description": "Several eslint configurations split up in logical groups",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kristofdegrave/eslintConfiguration.git"
+  },
+  "keywords": [
+    "eslint",
+    "configurations"
+  ],
+  "author": "Kristof Degrave",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kristofdegrave/eslintConfiguration/issues"
+  },
+  "homepage": "https://github.com/kristofdegrave/eslintConfiguration#readme"
+}
