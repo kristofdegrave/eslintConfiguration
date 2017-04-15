@@ -1,6 +1,6 @@
 {
   "name": "eslintconfiguration",
-  "version": "0.0.",
+  "version": "0.0.2",
   "description": "Several eslint configurations split up in logical groups",
   "repository": {
     "type": "git",
