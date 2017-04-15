@@ -17,7 +17,7 @@ module.exports = {
         "no-empty": ["error"], // http://eslint.org/docs/rules/no-empty
         "no-ex-assign": ["error"], //http://eslint.org/docs/rules/no-ex-assign
         "no-extra-boolean-cast": ["error"], // http://eslint.org/docs/rules/no-extra-boolean-cast
-        "no-extra-parens": ["watn", "all"], // http://eslint.org/docs/rules/no-extra-parens
+        "no-extra-parens": ["warn", "all"], // http://eslint.org/docs/rules/no-extra-parens
         "no-extra-semi": ["error"], // http://eslint.org/docs/rules/no-extra-semi
         "no-func-assign": ["error"], // http://eslint.org/docs/rules/no-func-assign
         "no-inner-declarations": ["error", "both"], // http://eslint.org/docs/rules/no-inner-declarations

@@ -6,7 +6,7 @@ module.exports = {
          "array-bracker-spacing": ["error", "never"], // http://eslint.org/docs/rules/array-bracket-spacing
          "block-spacing": ["error", "always"], // http://eslint.org/docs/rules/block-spacing
          "brace-style": ["error", "1tbs"], // http://eslint.org/docs/rules/brace-style
-         "camelcase": ["error", "always"], // http://eslint.org/docs/rules/camelcase
+         "camelcase": ["error", { "properties": "always" }], // http://eslint.org/docs/rules/camelcase
          "comma-dangle": ["error", "never"], // http://eslint.org/docs/rules/comma-dangle
          "comma-spacing": ["error", { "before": false, "after": true }], // http://eslint.org/docs/rules/comma-spacing
          "comma-style": ["error", "last"], // http://eslint.org/docs/rules/comma-style
@@ -71,7 +71,7 @@ module.exports = {
          "require-jsdoc": "off", // http://eslint.org/docs/rules/require-jsdoc
          "semi-spacing": ["error", {"before": false, "after": true}], // http://eslint.org/docs/rules/semi-spacing
          "semi": ["error", "always"], // http://eslint.org/docs/rules/semi
-         "sort-keys": ["error", {"caseSensitive": false, "natural": true}], // http://eslint.org/docs/rules/sort-keys
+         "sort-keys": ["error", "asc", {"caseSensitive": false, "natural": true}], // http://eslint.org/docs/rules/sort-keys
          "sort-vars": ["error", { "ignoreCase": true }], // http://eslint.org/docs/rules/sort-vars
          "space-before-blocks": ["error", "always"], // http://eslint.org/docs/rules/space-before-blocks
          "space-before-function-paren": ["error", "never"], // http://eslint.org/docs/rules/space-before-function-paren
