@@ -3,14 +3,14 @@ module.exports = {
         /*****
          * Stylistic Issues
          */
-         "array-bracker-spacing": ["error", "never"], // http://eslint.org/docs/rules/array-bracket-spacing
+         //"array-bracker-spacing": ["error", "never"], // http://eslint.org/docs/rules/array-bracket-spacing
          "block-spacing": ["error", "always"], // http://eslint.org/docs/rules/block-spacing
          "brace-style": ["error", "1tbs"], // http://eslint.org/docs/rules/brace-style
          "camelcase": ["error", { "properties": "always" }], // http://eslint.org/docs/rules/camelcase
          "comma-dangle": ["error", "never"], // http://eslint.org/docs/rules/comma-dangle
          "comma-spacing": ["error", { "before": false, "after": true }], // http://eslint.org/docs/rules/comma-spacing
          "comma-style": ["error", "last"], // http://eslint.org/docs/rules/comma-style
-         "comma-property-spacing": ["error", "never"], // http://eslint.org/docs/rules/computed-property-spacing
+         //"comma-property-spacing": ["error", "never"], // http://eslint.org/docs/rules/computed-property-spacing
          "consistent-this": ["warn", "ctx"], // http://eslint.org/docs/rules/consistent-this
          "eol-last": ["warn", "windows"], // http://eslint.org/docs/rules/eol-last
          "func-call-spacing": ["error", "never"], // http://eslint.org/docs/rules/func-call-spacing
@@ -38,7 +38,7 @@ module.exports = {
          "new-parens": ["error"], // http://eslint.org/docs/rules/new-parens
          "newline-after-var": ["error", "always"], //http://eslint.org/docs/rules/newline-after-var
          "newline-before-return": ["error"], // http://eslint.org/docs/rules/newline-before-return
-         "newline-per-chain-call": ["error", { "ignoreChainWithDepth": 2 }], // http://eslint.org/docs/rules/newline-per-chained-call
+         //"newline-per-chain-call": ["error", { "ignoreChainWithDepth": 2 }], // http://eslint.org/docs/rules/newline-per-chained-call
          "no-array-constructor": "error", // http://eslint.org/docs/rules/no-array-constructor
          "no-bitwise": "error", // http://eslint.org/docs/rules/no-bitwise
          "no-continue": "error", // http://eslint.org/docs/rules/no-continue
@@ -55,7 +55,7 @@ module.exports = {
          "no-tabs": "error", // http://eslint.org/docs/rules/no-tabs
          "no-ternary": "off", // http://eslint.org/docs/rules/no-ternary
          "no-trailing-spaces": "error", // http://eslint.org/docs/rules/no-trailing-spaces
-         "no-underscore-dangle": "error", // http://eslint.org/docs/rules/no-underscore-dangle
+         "no-underscore-dangle": ["error", { "allowAfterThis": true }], // http://eslint.org/docs/rules/no-underscore-dangle
          "no-unneeded-ternary": "error", // http://eslint.org/docs/rules/no-unneeded-ternary
          "no-whitespace-before-property": "error", // http://eslint.org/docs/rules/no-whitespace-before-property
          "object-curly-newline": ["error", { "minProperties": 2 }], // http://eslint.org/docs/rules/object-curly-newline

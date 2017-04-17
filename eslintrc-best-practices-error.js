@@ -21,7 +21,7 @@ module.exports = {
          "no-case-declarations": ["error"], // http://eslint.org/docs/rules/no-case-declarations
          "no-div-regex": ["error"], // http://eslint.org/docs/rules/no-div-regex
          "no-else-return": ["error"], // http://eslint.org/docs/rules/no-else-return
-         "no-empty-functions": ["error"], // http://eslint.org/docs/rules/no-empty-function
+         //"no-empty-functions": ["error"], // http://eslint.org/docs/rules/no-empty-function
          "no-empty-pattern": ["error"], // http://eslint.org/docs/rules/no-empty-pattern
          "no-eq-null": ["error"], // http://eslint.org/docs/rules/no-eq-null
          "no-eval": ["error"], // http://eslint.org/docs/rules/no-eval

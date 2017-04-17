@@ -10,9 +10,9 @@ module.exports = {
         "no-constant-condition": ["error"], // http://eslint.org/docs/rules/no-constant-condition
         "no-control-regex": ["error"], // http://eslint.org/docs/rules/no-control-regex
         "no-debugger": ["warn"], // http://eslint.org/docs/rules/no-debugger
-        "no-dub-args": ["error"], // http://eslint.org/docs/rules/no-dupe-args
-        "no-dub-keys": ["error"], // http://eslint.org/docs/rules/no-dupe-keys
-        "no-duplicte-case": ["error"], // http://eslint.org/docs/rules/no-duplicate-case
+        //"no-dub-args": ["error"], // http://eslint.org/docs/rules/no-dupe-args
+        //"no-dub-keys": ["error"], // http://eslint.org/docs/rules/no-dupe-keys
+        //"no-duplicte-case": ["error"], // http://eslint.org/docs/rules/no-duplicate-case
         "no-empty-character-class": ["error"], // http://eslint.org/docs/rules/no-empty-character-class
         "no-empty": ["error"], // http://eslint.org/docs/rules/no-empty
         "no-ex-assign": ["error"], //http://eslint.org/docs/rules/no-ex-assign
@@ -22,7 +22,7 @@ module.exports = {
         "no-func-assign": ["error"], // http://eslint.org/docs/rules/no-func-assign
         "no-inner-declarations": ["error", "both"], // http://eslint.org/docs/rules/no-inner-declarations
         "no-invalid-regexp": ["error"], // http://eslint.org/docs/rules/no-invalid-regexp
-        "no-irregular-whitespace": ["error", "all"], //http://eslint.org/docs/rules/no-invalid-regexp
+        "no-irregular-whitespace": ["error"], //http://eslint.org/docs/rules/no-invalid-regexp
         "no-obj-calls": ["error"], // http://eslint.org/docs/rules/no-obj-calls
         "no-prototype-builtins": ["error"], // http://eslint.org/docs/rules/no-prototype-builtins
         "no-regex-spaces": ["error"], // http://eslint.org/docs/rules/no-regex-spaces
